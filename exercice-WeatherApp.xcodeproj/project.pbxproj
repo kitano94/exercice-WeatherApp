@@ -12,6 +12,16 @@
 		504D23171C17234A00629DCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504D23151C17234A00629DCD /* Main.storyboard */; };
 		504D23191C17234A00629DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504D23181C17234A00629DCD /* Assets.xcassets */; };
 		504D231C1C17234A00629DCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504D231A1C17234A00629DCD /* LaunchScreen.storyboard */; };
+		504D23281C17341C00629DCD /* weathericons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 504D23271C17341C00629DCD /* weathericons.ttf */; };
+		504D23341C173AAF00629DCD /* SF-UI-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 504D232B1C173AAF00629DCD /* SF-UI-Display-Black.otf */; };
+		504D23351C173AAF00629DCD /* SF-UI-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 504D232C1C173AAF00629DCD /* SF-UI-Display-Bold.otf */; };
+		504D23361C173AAF00629DCD /* SF-UI-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 504D232D1C173AAF00629DCD /* SF-UI-Display-Heavy.otf */; };
+		504D23371C173AAF00629DCD /* SF-UI-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 504D232E1C173AAF00629DCD /* SF-UI-Display-Light.otf */; };
+		504D23381C173AAF00629DCD /* SF-UI-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 504D232F1C173AAF00629DCD /* SF-UI-Display-Medium.otf */; };
+		504D23391C173AAF00629DCD /* SF-UI-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 504D23301C173AAF00629DCD /* SF-UI-Display-Regular.otf */; };
+		504D233A1C173AAF00629DCD /* SF-UI-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 504D23311C173AAF00629DCD /* SF-UI-Display-Semibold.otf */; };
+		504D233B1C173AAF00629DCD /* SF-UI-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 504D23321C173AAF00629DCD /* SF-UI-Display-Thin.otf */; };
+		504D233C1C173AAF00629DCD /* SF-UI-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 504D23331C173AAF00629DCD /* SF-UI-Display-Ultralight.otf */; };
 		F011F6CB2ECA8FE5E944CECE /* Pods_exercice_WeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01162DFD87E6C6C120F57D11 /* Pods_exercice_WeatherApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +34,16 @@
 		504D23181C17234A00629DCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		504D231B1C17234A00629DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		504D231D1C17234A00629DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504D23271C17341C00629DCD /* weathericons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = weathericons.ttf; sourceTree = "<group>"; };
+		504D232B1C173AAF00629DCD /* SF-UI-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Black.otf"; sourceTree = "<group>"; };
+		504D232C1C173AAF00629DCD /* SF-UI-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Bold.otf"; sourceTree = "<group>"; };
+		504D232D1C173AAF00629DCD /* SF-UI-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Heavy.otf"; sourceTree = "<group>"; };
+		504D232E1C173AAF00629DCD /* SF-UI-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Light.otf"; sourceTree = "<group>"; };
+		504D232F1C173AAF00629DCD /* SF-UI-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Medium.otf"; sourceTree = "<group>"; };
+		504D23301C173AAF00629DCD /* SF-UI-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Regular.otf"; sourceTree = "<group>"; };
+		504D23311C173AAF00629DCD /* SF-UI-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Semibold.otf"; sourceTree = "<group>"; };
+		504D23321C173AAF00629DCD /* SF-UI-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Thin.otf"; sourceTree = "<group>"; };
+		504D23331C173AAF00629DCD /* SF-UI-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Ultralight.otf"; sourceTree = "<group>"; };
 		577ABCEAE33F0C18C14C5584 /* Pods-exercice-WeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercice-WeatherApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-exercice-WeatherApp/Pods-exercice-WeatherApp.release.xcconfig"; sourceTree = "<group>"; };
 		98E8536913D9CA368C737A03 /* Pods-exercice-WeatherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercice-WeatherApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-exercice-WeatherApp/Pods-exercice-WeatherApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +90,10 @@
 		504D23101C17234A00629DCD /* exercice-WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				504D23261C17311800629DCD /* Model */,
+				504D23251C17311300629DCD /* View */,
+				504D23241C17310A00629DCD /* Controller */,
+				504D23231C1730FC00629DCD /* Utilities */,
 				504D23111C17234A00629DCD /* AppDelegate.swift */,
 				504D23131C17234A00629DCD /* ViewController.swift */,
 				504D23151C17234A00629DCD /* Main.storyboard */,
@@ -78,6 +102,44 @@
 				504D231D1C17234A00629DCD /* Info.plist */,
 			);
 			path = "exercice-WeatherApp";
+			sourceTree = "<group>";
+		};
+		504D23231C1730FC00629DCD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				504D23271C17341C00629DCD /* weathericons.ttf */,
+				504D232B1C173AAF00629DCD /* SF-UI-Display-Black.otf */,
+				504D232C1C173AAF00629DCD /* SF-UI-Display-Bold.otf */,
+				504D232D1C173AAF00629DCD /* SF-UI-Display-Heavy.otf */,
+				504D232E1C173AAF00629DCD /* SF-UI-Display-Light.otf */,
+				504D232F1C173AAF00629DCD /* SF-UI-Display-Medium.otf */,
+				504D23301C173AAF00629DCD /* SF-UI-Display-Regular.otf */,
+				504D23311C173AAF00629DCD /* SF-UI-Display-Semibold.otf */,
+				504D23321C173AAF00629DCD /* SF-UI-Display-Thin.otf */,
+				504D23331C173AAF00629DCD /* SF-UI-Display-Ultralight.otf */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		504D23241C17310A00629DCD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		504D23251C17311300629DCD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		504D23261C17311800629DCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		AF589BA7901F6523680EA42E /* Frameworks */ = {
@@ -149,9 +211,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				504D23351C173AAF00629DCD /* SF-UI-Display-Bold.otf in Resources */,
+				504D23381C173AAF00629DCD /* SF-UI-Display-Medium.otf in Resources */,
 				504D231C1C17234A00629DCD /* LaunchScreen.storyboard in Resources */,
 				504D23191C17234A00629DCD /* Assets.xcassets in Resources */,
+				504D23341C173AAF00629DCD /* SF-UI-Display-Black.otf in Resources */,
+				504D23371C173AAF00629DCD /* SF-UI-Display-Light.otf in Resources */,
+				504D23281C17341C00629DCD /* weathericons.ttf in Resources */,
+				504D233B1C173AAF00629DCD /* SF-UI-Display-Thin.otf in Resources */,
+				504D233A1C173AAF00629DCD /* SF-UI-Display-Semibold.otf in Resources */,
+				504D23391C173AAF00629DCD /* SF-UI-Display-Regular.otf in Resources */,
+				504D233C1C173AAF00629DCD /* SF-UI-Display-Ultralight.otf in Resources */,
 				504D23171C17234A00629DCD /* Main.storyboard in Resources */,
+				504D23361C173AAF00629DCD /* SF-UI-Display-Heavy.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
