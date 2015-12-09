@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		500CD5EC1C18402E00C104FC /* Meteo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500CD5EB1C18402E00C104FC /* Meteo.swift */; };
+		500CD5EF1C18437D00C104FC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500CD5EE1C18437D00C104FC /* Constants.swift */; };
 		504D23121C17234A00629DCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504D23111C17234A00629DCD /* AppDelegate.swift */; };
 		504D23141C17234A00629DCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504D23131C17234A00629DCD /* ViewController.swift */; };
 		504D23171C17234A00629DCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504D23151C17234A00629DCD /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		01162DFD87E6C6C120F57D11 /* Pods_exercice_WeatherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_exercice_WeatherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		500CD5EB1C18402E00C104FC /* Meteo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meteo.swift; sourceTree = "<group>"; };
+		500CD5EE1C18437D00C104FC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		504D230E1C17234A00629DCD /* exercice-WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "exercice-WeatherApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		504D23111C17234A00629DCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		504D23131C17234A00629DCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +73,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		500CD5ED1C18435600C104FC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				500CD5EE1C18437D00C104FC /* Constants.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
 		504D23051C17234A00629DCD = {
 			isa = PBXGroup;
 			children = (
@@ -93,9 +105,9 @@
 				504D23261C17311800629DCD /* Model */,
 				504D23251C17311300629DCD /* View */,
 				504D23241C17310A00629DCD /* Controller */,
-				504D23231C1730FC00629DCD /* Utilities */,
+				504D23231C1730FC00629DCD /* Ressources */,
+				500CD5ED1C18435600C104FC /* Utilities */,
 				504D23111C17234A00629DCD /* AppDelegate.swift */,
-				504D23131C17234A00629DCD /* ViewController.swift */,
 				504D23151C17234A00629DCD /* Main.storyboard */,
 				504D23181C17234A00629DCD /* Assets.xcassets */,
 				504D231A1C17234A00629DCD /* LaunchScreen.storyboard */,
@@ -104,7 +116,7 @@
 			path = "exercice-WeatherApp";
 			sourceTree = "<group>";
 		};
-		504D23231C1730FC00629DCD /* Utilities */ = {
+		504D23231C1730FC00629DCD /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
 				504D23271C17341C00629DCD /* weathericons.ttf */,
@@ -118,12 +130,13 @@
 				504D23321C173AAF00629DCD /* SF-UI-Display-Thin.otf */,
 				504D23331C173AAF00629DCD /* SF-UI-Display-Ultralight.otf */,
 			);
-			name = Utilities;
+			name = Ressources;
 			sourceTree = "<group>";
 		};
 		504D23241C17310A00629DCD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				504D23131C17234A00629DCD /* ViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -138,6 +151,7 @@
 		504D23261C17311800629DCD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				500CD5EB1C18402E00C104FC /* Meteo.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -282,8 +296,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				500CD5EC1C18402E00C104FC /* Meteo.swift in Sources */,
 				504D23141C17234A00629DCD /* ViewController.swift in Sources */,
 				504D23121C17234A00629DCD /* AppDelegate.swift in Sources */,
+				500CD5EF1C18437D00C104FC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
