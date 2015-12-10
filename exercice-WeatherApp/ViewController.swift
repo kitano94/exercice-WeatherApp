@@ -14,16 +14,28 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var mainTempLbl: UILabel!
     @IBOutlet weak var pressureLbl: UILabel!
+    @IBOutlet weak var humidityLbl: UILabel!
+    @IBOutlet weak var speedLbl: UILabel!
+    
+    @IBOutlet weak var iconDay1Lbl: UILabel!
+    @IBOutlet weak var iconDay2Lbl: UILabel!
+    @IBOutlet weak var iconDay3Lbl: UILabel!
+    @IBOutlet weak var iconDay4Lbl: UILabel!
     
     
     var meteo = Meteo()
+    var meteoDetails = MeteoDetails()
+    var weekArray = ["Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi","Dimanche"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         meteo.downloadMeteoInfos { () -> () in
             self.updateUI()
-            print(self.meteo.pressure)
+        }
+        
+        meteoDetails.downloadMeteoInfos { () -> () in
+            self.updateUI()
         }
     }
 
@@ -31,7 +43,15 @@ class ViewController: UIViewController {
     // MARK: Functions
     
     func updateUI() {
-        pressureLbl.text = meteo.pressure
+        mainTempLbl.text = meteo.temp
+        pressureLbl.text = "\(meteo.pressure) hpa"
+        humidityLbl.text = "\(meteo.humidity) %"
+        speedLbl.text = "\(meteo.speed) m/s"
+        
+        iconDay1Lbl.text = meteoDetails.iconDay1
+        iconDay2Lbl.text = meteoDetails.iconDay2
+        iconDay3Lbl.text = meteoDetails.iconDay3
+        iconDay4Lbl.text = meteoDetails.iconDay4
         
     }
     

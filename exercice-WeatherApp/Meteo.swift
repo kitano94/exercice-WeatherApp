@@ -17,11 +17,32 @@ class Meteo {
     private var _speed: String!
     private var _meteoUrl: String!
     
+    var temp: String {
+        if _temp == nil {
+            _temp = ""
+        }
+        return _temp
+    }
+    
     var pressure: String {
         if _pressure == nil {
             _pressure = ""
         }
         return _pressure
+    }
+    
+    var humidity: String {
+        if _humidity == nil {
+            _humidity = ""
+        }
+        return _humidity
+    }
+    
+    var speed: String {
+        if _speed == nil {
+            _speed = ""
+        }
+        return _speed
     }
     
     init() {
@@ -35,10 +56,25 @@ class Meteo {
             let result = response.result
             
             if let dict = result.value as? Dictionary<String, AnyObject> {
-                if let pressure = dict["list"] as? [Dictionary<String, AnyObject>] {
-                    if let press = pressure[0]["pressure"] as? Int {
-                        self._pressure = "\(press)"
-                        print(self.pressure)
+
+                if let list = dict["list"] as? [Dictionary<String, AnyObject>] where list.count > 0 {
+                    
+                    if let temp = list[0]["temp"] as? Dictionary<String, AnyObject> where temp.count > 0 {
+                        if let temperature = temp["day"] as? Int {
+                            self._temp = "\(temperature)"
+                        }
+                    }
+                    
+                    if let pressure = list[0]["pressure"] as? Int {
+                        self._pressure = "\(pressure)"
+                    }
+                    
+                    if let humidity = list[0]["humidity"] as? Int {
+                        self._humidity = "\(humidity)"
+                    }
+                    
+                    if let speed = list[0]["speed"] as? Int {
+                        self._speed = "\(speed)"
                     }
                 }
             }

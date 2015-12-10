@@ -24,6 +24,7 @@
 		504D233A1C173AAF00629DCD /* SF-UI-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 504D23311C173AAF00629DCD /* SF-UI-Display-Semibold.otf */; };
 		504D233B1C173AAF00629DCD /* SF-UI-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 504D23321C173AAF00629DCD /* SF-UI-Display-Thin.otf */; };
 		504D233C1C173AAF00629DCD /* SF-UI-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 504D23331C173AAF00629DCD /* SF-UI-Display-Ultralight.otf */; };
+		50D1264A1C198A0000B8D8DD /* MeteoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D126491C198A0000B8D8DD /* MeteoDetails.swift */; };
 		F011F6CB2ECA8FE5E944CECE /* Pods_exercice_WeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01162DFD87E6C6C120F57D11 /* Pods_exercice_WeatherApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		504D23311C173AAF00629DCD /* SF-UI-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Semibold.otf"; sourceTree = "<group>"; };
 		504D23321C173AAF00629DCD /* SF-UI-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Thin.otf"; sourceTree = "<group>"; };
 		504D23331C173AAF00629DCD /* SF-UI-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		50D126491C198A0000B8D8DD /* MeteoDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteoDetails.swift; sourceTree = "<group>"; };
 		577ABCEAE33F0C18C14C5584 /* Pods-exercice-WeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercice-WeatherApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-exercice-WeatherApp/Pods-exercice-WeatherApp.release.xcconfig"; sourceTree = "<group>"; };
 		98E8536913D9CA368C737A03 /* Pods-exercice-WeatherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exercice-WeatherApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-exercice-WeatherApp/Pods-exercice-WeatherApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				500CD5EB1C18402E00C104FC /* Meteo.swift */,
+				50D126491C198A0000B8D8DD /* MeteoDetails.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50D1264A1C198A0000B8D8DD /* MeteoDetails.swift in Sources */,
 				500CD5EC1C18402E00C104FC /* Meteo.swift in Sources */,
 				504D23141C17234A00629DCD /* ViewController.swift in Sources */,
 				504D23121C17234A00629DCD /* AppDelegate.swift in Sources */,
