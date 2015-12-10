@@ -184,7 +184,7 @@
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mercredi 8 Décembre - 09:57" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4R6-FQ-1N3">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mercredi 8 Décembre" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4R6-FQ-1N3">
                                                 <rect key="frame" x="0.0" y="41" width="600" height="23"/>
                                                 <fontDescription key="fontDescription" name="SFUIDisplay-Thin" family="SF UI Display" pointSize="20"/>
                                                 <color key="textColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
@@ -325,6 +325,11 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="dateLbl" destination="4R6-FQ-1N3" id="ioa-x9-bXk"/>
+                        <outlet property="day1NameLbl" destination="eXV-NO-KWA" id="Zzu-tS-lb2"/>
+                        <outlet property="day2NameLbl" destination="zfA-a6-o0R" id="kuW-xg-2Rs"/>
+                        <outlet property="day3NameLbl" destination="onc-AF-wtA" id="l9d-Xc-9IH"/>
+                        <outlet property="day4NameLbl" destination="ztA-wg-LGW" id="aAr-oK-Y2M"/>
                         <outlet property="humidityLbl" destination="mNj-5Y-rdH" id="tsN-lc-lTa"/>
                         <outlet property="iconDay1Lbl" destination="6Aa-Ue-9ob" id="DgL-di-P30"/>
                         <outlet property="iconDay2Lbl" destination="lL6-Go-BNY" id="am6-7J-zvQ"/>
