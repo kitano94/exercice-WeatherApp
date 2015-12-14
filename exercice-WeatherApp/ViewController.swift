@@ -41,8 +41,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        calculDay()
-        
         meteo.downloadMeteoInfos { () -> () in
             self.updateUI()
         }
@@ -50,6 +48,10 @@ class ViewController: UIViewController {
         meteoDetails.downloadMeteoInfos { () -> () in
             self.updateUI()
         }
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        calculDay()
     }
 
     
